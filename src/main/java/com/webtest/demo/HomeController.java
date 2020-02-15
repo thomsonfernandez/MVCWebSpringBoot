@@ -29,6 +29,7 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("obj",flight);
 		mv.setViewName("home");
+		//changes are added
 		return mv;
 	}
 
